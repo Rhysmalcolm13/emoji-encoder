@@ -1,0 +1,1 @@
+encode the string as UTF-8, and then turn each byte into a pair of “variation selector” characters (there are conveniently 16 codepoints allocated as variation selectors, and 16x16 = 256). Variation selectors don't show up visually, but are retained when the character is copied/pasted.
